@@ -1,9 +1,8 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/geoocean%2Fcourses%2Fwaves/HEAD?urlpath=tree/)
-
 # ONDAS
 
-Fernando J. Méndez Incera (fernando.mendez@unican.es)\
-Jared Ortiz-Angulo Cantos (jared.ortizangulo@unican.es)
+Fernando J. Méndez (fernando.mendez@unican.es)\
+Laura Cagigal (laura.cagigal@unican.es)\
+Jared Ortiz-Angulo (jared.ortizangulo@unican.es)
 
 <a name="ins"></a>
 ## Data download
@@ -17,6 +16,7 @@ Link: https://e9kpv.app.goo.gl/48LnPegH1St7avYr5
 Contraseña: geoocean
 
 <a name="ins"></a>
+
 ## Install
 - - -
 
