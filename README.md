@@ -6,16 +6,6 @@ Jared Ortiz-Angulo (jared.ortizangulo@unican.es)
 
 <a name="ins"></a>
 ## Data download
-- - -
-["DESCARGA DE DATOS"]
-
-142 estaciones repartidas por el mundo (887MB) (serie temporal = 40 años; con datos horarios):
-
-Link: https://e9kpv.app.goo.gl/48LnPegH1St7avYr5
-
-Contraseña: geoocean
-
-<a name="ins"></a>
 
 ## Install
 - - -
@@ -23,37 +13,12 @@ Contraseña: geoocean
 
 ### Activate conda environment
 
-
-Descargamos todo el contenido de gitlab
-
-Abrimos una terminal de conda: anconda prompt
-
-
-Cambiamos al directorio en el que tenemos extraídos los archivos de gitlab
-
-```
-cd ondas-main
-```
-
-A partir del archivo environment.yml, creamos un nuevo env que se llama ondas2 (si da error, quitar el -f):
-
-```
-conda env create -f environment.yml
-```
-
-
-Activamos el environment:
-
-```
-conda activate ondas2
-
-```
-
-Lanzamos jupyter lab:
-
-```
-jupyter lab
-
-```
-
-
+- Download repository
+- Open anaconda prompt
+- Go to the dowloaded folder path (cd **path**/ondas_main)
+- Create conda environment from environment.yml file:
+	- conda env create -f environment.yml 
+- Activate environment
+	- conda activate ondas2
+- Launch jupyter lab
+	- jupyter lab
