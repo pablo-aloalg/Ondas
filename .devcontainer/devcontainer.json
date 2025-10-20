@@ -4,14 +4,17 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "source /opt/conda/etc/profile.d/conda.sh && conda env update -n base -f /tmp/conda-tmp/environment.yml && conda clean -afy",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash",
-    "python.defaultInterpreterPath": "/opt/conda/bin/python"
+    "python.defaultInterpreterPath": "/opt/conda/bin/python",
+    "jupyter.jupyterServerType": "local"
   },
   "extensions": [
     "ms-python.python",
-    "ms-toolsai.jupyter"
+    "ms-toolsai.jupyter",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.jupyter-renderers"
   ],
+  "postCreateCommand": "echo '✅ Conda environment ready and Jupyter configured.'",
   "remoteUser": "vscode"
 }
