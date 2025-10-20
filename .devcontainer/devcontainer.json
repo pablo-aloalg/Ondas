@@ -15,7 +15,6 @@
     "ms-toolsai.jupyter-keymap",
     "ms-toolsai.jupyter-renderers"
   ],
-  "postCreateCommand": "./setup_env.sh",
   "remoteUser": "vscode"
 }
 
