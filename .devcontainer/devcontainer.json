@@ -15,10 +15,7 @@
     "ms-toolsai.jupyter-keymap",
     "ms-toolsai.jupyter-renderers"
   ],
-  "postCreateCommand": "source /opt/conda/etc/profile.d/conda.sh && \
-    conda env create -f /tmp/environment.yml || conda env update -f /tmp/environment.yml --prune && \
-    echo 'source /opt/conda/etc/profile.d/conda.sh && conda activate $(head -1 /tmp/environment.yml | cut -d' ' -f2)' >> ~/.bashrc && \
-    jupyter trust $(find . -name '*.ipynb') && \
-    echo '✅ Conda environment installed and all notebooks trusted!'",
+  "postCreateCommand": "./setup_env.sh",
   "remoteUser": "vscode"
 }
+
